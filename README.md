@@ -4,6 +4,12 @@
 
 A modern, responsive landing experience for a mental wellness and therapy service. Built with React and Vite, it highlights services, success stories, pricing tiers, and a lead-capturing contact form with smooth animations powered by Framer Motion.
 
+## 🔗 Live Demo
+
+👉 [View Deployed App](https://Rola-Al-Ahmad.github.io/mindleap)
+
+---
+
 ## 📋 Table of Contents
 
 - [Features](#-features)
