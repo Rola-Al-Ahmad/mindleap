@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { motion } from "framer-motion";
 
+import logo from "../../public/logo.svg";
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
@@ -69,7 +71,7 @@ const Navbar = () => {
         {/* Logo */}
         <div>
           <a href="#">
-            <img src="/logo.svg" alt="logo" />
+            <img src={logo} alt="logo" />
           </a>
         </div>
         {/* Nav Items */}
